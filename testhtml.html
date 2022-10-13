@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox CSS --- DAMMIO.COM</title>
+    <style>
+     
+        .header{
+            width:100%;
+            height:100px;
+            background-color:yellow;
+        }
+         
+       .flex-container {
+            display: flex;
+            flex-direction: row;
+            background-color: lightblue;
+        }
+         
+        .sidebar-1{
+            flex:25%;
+            background-color: pink;
+        }
+         
+        .sidebar-2{
+            flex:25%;
+            background-color: #F7DC6F;
+        }
+         
+        .content{
+            flex:50%;
+            background-color: #D7BDE2;
+        }
+         
+        .footer{
+            width:100%;
+            height:50px;
+            background-color: #AAA;
+        }
+         
+        @media screen and (max-width: 768px) {
+            .flex-container {   
+            flex-direction: column;
+        }
+}
+         
+    </style>
+</head> 
+  
+<body>
+ 
+<div class="header">
+    <h3>Header --- dammio.com</h3>
+</div>
+ 
+<div class="flex-container">
+    <div class="sidebar-1">
+        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>
+        Sidebar 1<br>
+        Sidebar 1<br>
+        Sidebar 1<br>
+        Sidebar 1<br>
+        Sidebar 1<br>
+        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>        Sidebar 1<br>
+    </div>
+    <div class="content">
+        Content<br>
+        Content<br>
+        Content<br>
+        Content<br>
+        Content<br>
+    </div>  
+    <div class="sidebar-2">
+        Sidebar 2<br>
+        Sidebar 2<br>
+    </div>  
+</div>
+  
+<div class="footer">Footer</div>  
+ 
+ 
+</body>
+  
+</html>
