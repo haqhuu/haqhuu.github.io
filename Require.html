@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css">
+		<title>
+			Feedback
+		</title>
+		<style>
+			#name{
+				display: flex;
+				width: 100%;
+				padding: 10px;
+				resize: vertical;
+			}
+			#name{
+				flex: 75%;
+			}
+			.ok:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+            .ok{
+                margin-left: 5px;
+            }
+			button {
+				color: black;
+				background-color: lightskyblue;
+				border-color: black;
+				cursor: pointer;
+				float: right;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="name_theme">
+				<h2>FEEDBACK</h2>
+			</div>
+			<div class="path">
+                <p><a href="Office_Eng.html" class="tooltip">#1: Of<span class="tip_link">Office</span></a>   ,
+					<a href="Business_Eng.html" class="tooltip">#2: Bu<span class="tip_link">Business</span></a>  ,
+					<a href="Technical_Eng.html" class="tooltip">#3: Te<span class="tip_link">Technical areas</span></a>  ,
+                    <a href="Travel_Eng.html" class="tooltip">#4: Tr<span class="tip_link">Travel</span></a>  ,
+					<a href="Entertainment_Eng.html" class="tooltip">#5: En<span class="tip_link">Entertainment</span></a>  ,
+					<a href="Purcharsing_Eng.html" class="tooltip">#6: Pu<span class="tip_link">Purchasing</span></a>  ,
+					<a href="Dining_Eng.html" class="tooltip">#7: Di<span class="tip_link">Dining out</span></a>  ,
+					<a href="Personnel_Eng.html" class="tooltip">#8: Pe<span class="tip_link">Personnel</span></a>  ,
+					<a href="Finance_Eng.html" class="tooltip">#9: Fi<span class="tip_link">Finance and budgeting</span></a> ,
+					<a href="Corporate_Eng.html" class="tooltip">#10: Co<span class="tip_link">Coporate development</span></a>  ,
+					<a href="Manufacturing_Eng.html" class="tooltip">#11: Ma<span class="tip_link">Manufaturing</span></a>  ,
+					<a href="Housing_Eng.html" class="tooltip">#12: Ho<span class="tip_link">Housing</span></a>  ,
+					<a href="Health_Eng.html" class="tooltip">#13: He<span class="tip_link">Health</span></a>
+				</p>
+			</div>
+		</div>
+
+		<div class="body_container">
+			<div class="nav">
+				<ul>
+					<li style="font-size: 1.3em;">
+						<a href="http://tratu.soha.vn/" target="parent">Dictionary</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<ion-icon name="home-outline"></ion-icon>Home</a>
+					</li>
+					<li>
+						<a href="reference.html">
+							<ion-icon name="book-outline"></ion-icon>Reference</a>
+					</li>
+					<li>
+						<a href="Getting.html">
+							<ion-icon name="help-circle-outline"></ion-icon>Help</a>
+					</li>
+					<li>
+						<a href="Require.html">
+							<ion-icon name="send-outline"></ion-icon>Feedback</a>
+					</li>
+					<li>
+						<a href="About.html">
+							<ion-icon name="information-circle-outline"></ion-icon>About</a>
+					</li>
+					<li>
+						<a href="https://www.google.com/" target="_top">
+							<ion-icon name="exit-outline"></ion-icon>Quit</a>
+					</li>
+				</ul>
+			</div><!--end nav-->
+
+			<div class="content">
+				<form>
+						<input type="text" name="fname" id="name" placeholder="Your name">
+						<textarea id="sub" placeholder="Type here.." style="height: min(450px); width: min(767px)"></textarea>
+					
+				</form>
+                <div class="ok">
+						<a href="Require.html" ><button onclick="memo()">Submit</button></a>
+				</div>
+			 </div><!--end content-->
+
+			<div class="setting">
+
+				<!--        <ion-icon name="settings-outline"></ion-icon>-->
+			</div>
+		</div><!-- end container-->
+
+		<div class="footer">
+			Copyright 2022 © EngReading
+		</div>
+	</body>
+    <script>
+        function memo(){
+            alert("Done");
+        }
+    </script>
+	<!-- add icon (ionic.io)-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>

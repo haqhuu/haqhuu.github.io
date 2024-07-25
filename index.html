@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css">
+		<title>
+			Home
+		</title>
+		<style>
+
+			.theme_image {
+				flex: calc(33.33% - 15px);
+				position: relative;
+				margin: 5px;     
+			}
+
+			.image {
+				width: 100%;
+				height: 100%;
+			}
+
+			.middle {
+				flex:3;
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				transition: .5s ease;
+				opacity: 0;
+				
+			}
+			.theme_image:hover .image {
+				opacity: 0.5;
+			}
+			.theme_image:hover .middle{
+				opacity: 0.9;
+			}
+			.desc {
+                
+				font-family: Arial black;
+				background-color: none;
+				color: black;
+				font-size: 1.1em;
+			}
+			.nav ul {
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<div class="name_theme">
+				<h2>ENGREADING</h2>
+			</div>
+
+			<div class="path">
+                <p><a href="Office_Eng.html" >#1: Of</a>   ,
+					<a href="Business_Eng.html" >#2: Bu</a>  ,
+					<a href="Technical_Eng.html" >#3: Te</a>  ,
+                    <a href="Travel_Eng.html" >#4: Tr</a>  ,
+					<a href="Entertainment_Eng.html" >#5: En</a>  ,
+					<a href="Purcharsing_Eng.html" >#6: Pu</a>  ,
+					<a href="Dining_Eng.html" >#7: Di</a>  ,
+					<a href="Personnel_Eng.html" >#8: Pe</a>  ,
+					<a href="Finance_Eng.html" >#9: Fi</a> ,
+					<a href="Corporate_Eng.html" >#10: Co</a>  ,
+					<a href="Manufacturing_Eng.html" >#11: Ma</a>  ,
+					<a href="Housing_Eng.html" >#12: Ho</a>  ,
+					<a href="Health_Eng.html" >#13: He</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="body_container">
+			<div class="nav">
+				<ul>
+					<li style="font-size: 1.3em;">
+						<a href="http://tratu.soha.vn/" target="parent">Dictionary</a>
+					</li>
+					<li>
+						<a href="#">
+							<ion-icon name="home-outline"></ion-icon>Home</a>
+					</li>
+					<li>
+						<a href="reference.html">
+							<ion-icon name="book-outline"></ion-icon>Reference</a>
+					</li>
+					<li>
+						<a href="Getting.html">
+							<ion-icon name="help-circle-outline"></ion-icon>Help</a>
+					</li>
+					<li>
+						<a href="Require.html">
+							<ion-icon name="send-outline"></ion-icon>Feedback</a>
+					</li>
+					<li>
+						<a href="About.html">
+							<ion-icon name="information-circle-outline"></ion-icon>About</a>
+					</li>
+					<li>
+						<a href="https://www.google.com/" target="_top">
+							<ion-icon name="exit-outline"></ion-icon>Quit</a>
+					</li>
+				</ul>
+			</div><!--end nav-->
+
+			<div class="content">
+				<div class="theme_image">
+					<a href="Office_Eng.html">
+						<img src="office-.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#1:<br> OFFICE</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Business_Eng.html">
+						<img src="business.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#2:<br>GENERAL BUSINESS</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Technical_Eng.html">
+						<img src="technical.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#3:<br> TECHNICAL AREAS</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Travel_Eng.html">
+						<img src="travel.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#4:<br> TRAVEL</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Entertainment_Eng.html">
+						<img src="entertainment.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#5:<br> ENTERTAINMENT</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Purchasing_Eng.html">
+						<img src="purchasing.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#6:<br> PURCHASING</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Dining_Eng.html">
+						<img src="dining.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#7:<br> DINING OUT</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Personnel_Eng.html">
+						<img src="personnel.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#8:<br> PERSONNEL</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Finance_Eng.html">
+						<img src="finance.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#9:<br> FINANCE AND BUDGETING</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Corporate_Eng.html">
+						<img src="coporate.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#10:<br> CORPORATE DEVELOPMENT</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Manufacturing_Eng.html">
+						<img src="manufacturing.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#11:<br> MANUFACTURING</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image">
+					<a href="Housing_Eng.html">
+						<img src="housing.jpg" alt="Avatar" class="image" >
+						<div class="middle">
+							<div class="desc">#12:<br> HOUSING CORPORATE PROPERTY</div>
+						</div>
+					</a>
+				</div>
+				<div class="theme_image" style="width: 33%;">
+					<a href="Health_Eng.html">
+						<img src="health.jpg" style="width: calc( 33% - 5px);" alt="Avatar" class="image" >
+						<div class="middle" style="width: 33%;">
+							<div class="desc">#13:<br> HEALTH</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- end content -->
+
+			<div class="setting">
+
+			</div>
+		</div><!--end container-->
+		<div class="footer">
+			Copyright 2022 © EngReading
+		</div>
+	</body>
+
+	<!-- add icon (ionic.io)-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>
